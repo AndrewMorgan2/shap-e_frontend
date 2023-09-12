@@ -1,0 +1,3 @@
+
+ssh -i "/root/.ssh/Allkey.pem" ec2-user@ec2-3-70-198-204.eu-central-1.compute.amazonaws.com
+scp -i "/root/.ssh/Allkey.pem" /mnt/a/Projects/Shap-e/shap-e_frontend/backend/run_text_to_3D.py ec2-user@ec2-3-70-198-204.eu-central-1.compute.amazonaws.com:~
