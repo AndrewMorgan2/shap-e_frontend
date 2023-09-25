@@ -5,4 +5,4 @@ git clone https://github.com/openai/shap-e.git
 pip install -e .
 pip install pyyaml
 
-sudo apt install git pip -y && git clone https://github.com/openai/shap-e.git && pip install -e . && pip install pyyaml
+sudo apt install git pip -y && git clone https://github.com/openai/shap-e.git && cd shap-e && pip install -e . && pip install pyyaml
